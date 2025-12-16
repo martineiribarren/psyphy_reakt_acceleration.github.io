@@ -1,0 +1,23 @@
+title: "Psychophysiological Reactions to Acceleration"
+description: "Acceleration vs. Immersion: A study by the MTDML Lab."
+baseurl: "" # Dejar vacío si es un repo de usuario, o "/nombre-repo" si es proyecto
+url: "https://tu-usuario.github.io"
+theme: jekyll-theme-cayman # Usaremos este como base pero lo modificaremos totalmente con CSS
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Configuración de Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax # Habilita fórmulas matemáticas
+
+# Menú de Navegación
+header_pages:
+  - index.md
+  - pages/theory.md
+  - pages/experiment.md
+  - pages/metrics.md
+  - pages/community.md
+  - pages/resources.md
